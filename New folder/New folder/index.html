@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    
+
+</head>
+<body>
+
+  <div class="container-fluid">
+    <section id="header">
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+  
+      <!-- Brand -->
+      <a class="navbar-brand" href="./overview.html">
+        <img src="/Images/4295.png" alt="" class="img-fluid" style="width: 3rem;"> &nbsp; Saphire
+      </a>
+  
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleNavbar()">
+        <span ><i class="fa-solid fa-bars-staggered"></i></span>
+      </button>
+      <button class="navbar-close d-md-none" onclick="closeNavbar()">Close</button>
+
+  
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse navbar-menue" id="navbarCollapse">
+  
+        <!-- Nav -->
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item dropdown hovered">
+  
+            <!-- Toggle -->
+            <a class="nav-link" data-bs-toggle="dropdown" href="#" aria-expanded="false">Home</a>
+  
+            <!-- Menu -->
+            <div class="dropdown-menu">
+              <div class="card card-lg">
+                <div class="card-body">
+                  <ul class="list-styled fs-sm">
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./index.html">Default</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./index-classic.html">Classic</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./index-fashion.html">Fashion</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./index-boxed.html">Boxed</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./index-simple.html">Simple</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./index-asymmetric.html">Asymmetric</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./index-sidenav.html">Sidenav</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./index-landing.html">Landing</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+          </li>
+          <li class="nav-item dropdown position-static hovered">
+  
+            <!-- Toggle -->
+            <a class="nav-link" data-bs-toggle="dropdown" href="#" aria-expanded="false">Catalog</a>
+  
+            <!-- Menu -->
+            <div class="dropdown-menu w-100">
+            
+              <!-- Tabs -->
+              <div class="mb-2 mb-lg-0 border-bottom-lg">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+            
+                      <!-- Nav -->
+                      <nav class="nav nav-tabs nav-overflow fs-xs border-bottom border-bottom-lg-0">
+                        <a class="nav-link text-uppercase active" data-bs-toggle="tab" href="#navTab">
+                          Women
+                        </a>
+                        <a class="nav-link text-uppercase" data-bs-toggle="tab" href="#navTab">
+                          Men
+                        </a>
+                        <a class="nav-link text-uppercase" data-bs-toggle="tab" href="#navTab">
+                          Kids
+                        </a>
+                      </nav>
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Tab content -->
+              <div class="card card-lg">
+                <div class="card-body">
+                  <div class="tab-content">
+                    <div class="tab-pane fade show active" id="navTab">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-6 col-md">
+            
+                            <!-- Heading -->
+                            <div class="mb-5 fw-bold">Clothing</div>
+            
+                            <!-- Links -->
+                            <ul class="list-styled mb-6 mb-md-0 fs-sm">
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">All Clothing</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Blouses &amp; Shirts</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Coats &amp; Jackets</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Dresses</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Hoodies &amp; Sweats</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Denim</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Jeans</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Jumpers &amp; Cardigans</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Leggings</a>
+                              </li>
+                            </ul>
+            
+                          </div>
+                          <div class="col-6 col-md">
+            
+                            <!-- Heading -->
+                            <div class="mb-5 fw-bold">Shoes &amp; Boots</div>
+            
+                            <!-- Links -->
+                            <ul class="list-styled mb-6 mb-md-0 fs-sm">
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">All Shoes &amp; Boots</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Branded Shoes</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Boots</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Heels</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Trainers</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Sandals</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Shoes</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Wide Fit Shoes</a>
+                              </li>
+                            </ul>
+            
+                          </div>
+                          <div class="col-6 col-md">
+            
+                            <!-- Heading -->
+                            <div class="mb-5 fw-bold">Bags &amp; Accessories</div>
+            
+                            <!-- Links -->
+                            <ul class="list-styled mb-0 fs-sm">
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">All Bags &amp; Accessories</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Accessories</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Bags &amp; Purses</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Luggage</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Belts</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Hats</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Hair Accessories</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Jewellery</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Travel Accessories</a>
+                              </li>
+                            </ul>
+            
+                          </div>
+                          <div class="col-6 col-md">
+            
+                            <!-- Heading -->
+                            <div class="mb-5 fw-bold">Collections</div>
+            
+                            <!-- Links -->
+                            <ul class="list-styled mb-0 fs-sm">
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">All Collections</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Occasionwear</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Going Out</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Workwear</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Holiday Shop</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="./shop.html">Jean Fit Guide</a>
+                              </li>
+                            </ul>
+            
+                          </div>
+                          <div class="col-4 d-none d-lg-block">
+            
+                            <!-- Card -->
+                            <div class="card">
+            
+                              <!-- Image -->
+                              <img class="card-img" src="./assets/img/products/product-110.jpg" alt="...">
+            
+                              <!-- Overlay -->
+                              <div class="card-img-overlay bg-dark-0 bg-hover align-items-center">
+                                <div class="text-center">
+                                  <a class="btn btn-white stretched-link" href="./shop.html">
+                                    Shop Sweaters <i class="fe fe-arrow-right ms-2"></i>
+                                  </a>
+                                </div>
+                              </div>
+            
+                            </div>
+            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+  
+          </li>
+          <li class="nav-item dropdown hovered">
+  
+            <!-- Toggle -->
+            <a class="nav-link" data-bs-toggle="dropdown" href="#" aria-expanded="false">Shop</a>
+  
+            <!-- Menu -->
+            <div class="dropdown-menu" style="min-width: 650px;">
+              <div class="card card-lg">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+            
+                      <!-- Heading -->
+                      <div class="mb-5 fw-bold">Shop</div>
+            
+                      <!-- Links -->
+                      <ul class="list-styled mb-7 fs-sm">
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./shop.html">Default</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./shop-topbar.html">Topbar</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./shop-collapse.html">Collapse</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./shop-simple.html">Simple</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./shop-masonry.html">Masonry</a>
+                        </li>
+                      </ul>
+            
+                      <!-- Heading -->
+                      <div class="mb-5 fw-bold">Product</div>
+            
+                      <!-- Links -->
+                      <ul class="list-styled fs-sm">
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./product.html">Default</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./product-images-left.html">Images Left</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./product-image-grid.html">Image Grid</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./product-image-slider.html">Image Slider</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./product-images-stacked.html">Images Stacked</a>
+                        </li>
+                      </ul>
+            
+                    </div>
+                    <div class="col">
+            
+                      <!-- Heading -->
+                      <div class="mb-5 fw-bold">Support</div>
+            
+                      <!-- Links -->
+                      <ul class="list-styled mb-7 fs-sm">
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./shopping-cart.html">Shopping Cart</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./checkout.html">Checkout</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./order-completed.html">Order Completed</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./shipping-and-returns.html">Shipping &amp; Returns</a>
+                        </li>
+                      </ul>
+            
+                      <!-- Heading -->
+                      <div class="mb-5 fw-bold">Account</div>
+            
+                      <!-- Links -->
+                      <ul class="list-styled fs-sm">
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./account-order.html">Order</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./account-orders.html">Orders</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./account-wishlist.html">Wishlist</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./account-personal-info.html">Personal Info</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./account-address.html">Addresses</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./account-address-edit.html">Addresses: New</a>
+                        </li>
+                      </ul>
+            
+                    </div>
+                    <div class="col">
+            
+                      <!-- Links -->
+                      <ul class="list-styled mb-7 fs-sm">
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./account-payment.html">Payment</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./account-payment-edit.html">Payment: New</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./account-payment-choose.html">Payment: Choose</a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" href="./auth.html">Auth</a>
+                        </li>
+                      </ul>
+            
+                      <!-- Heading -->
+                      <div class="mb-5 fw-bold">Modals</div>
+            
+                      <!-- Links -->
+                      <ul class="list-styled fs-sm">
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" data-bs-toggle="modal" href="#modalNewsletterHorizontal">
+                            Newsletter: Horizontal
+                          </a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" data-bs-toggle="modal" href="#modalNewsletterVertical">
+                            Newsletter: Vertical
+                          </a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" data-bs-toggle="modal" href="#modalProduct">
+                            Product
+                          </a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" data-bs-toggle="offcanvas" href="#modalSearch">
+                            Search
+                          </a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" data-bs-toggle="offcanvas" href="#modalShoppingCart">
+                            Shopping Cart
+                          </a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" data-bs-toggle="modal" href="#modalSizeChart">
+                            Size Chart
+                          </a>
+                        </li>
+                        <li class="list-styled-item">
+                          <a class="list-styled-link" data-bs-toggle="modal" href="#modalWaitList">
+                            Wait List
+                          </a>
+                        </li>
+                      </ul>
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </li>
+          <li class="nav-item dropdown hovered">
+  
+            <!-- Toggle -->
+            <a class="nav-link" data-bs-toggle="dropdown" href="#" aria-expanded="false">Pages</a>
+  
+            <!-- Menu -->
+            <div class="dropdown-menu">
+              <div class="card card-lg">
+                <div class="card-body">
+                  <ul class="list-styled fs-sm">
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./about.html">About</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./contact-us.html">Contact Us</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./store-locator.html">Store Locator</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./faq.html">FAQ</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./coming-soon.html">Coming Soon</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./404.html">404</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+          </li>
+          <li class="nav-item dropdown hovered">
+  
+            <!-- Toggle -->
+            <a class="nav-link" data-bs-toggle="dropdown" href="#" aria-expanded="false">Blog</a>
+  
+            <!-- Menu -->
+            <div class="dropdown-menu">
+              <div class="card card-lg">
+                <div class="card-body">
+                  <ul class="list-styled fs-sm">
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="list-styled-item">
+                      <a class="list-styled-link" href="./blog-post.html">Blog Post</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="docs/getting-started.html">Docs</a>
+          </li>
+        </ul>
+  
+        <!-- Nav -->
+        <ul class="navbar-nav flex-row">
+          <li class="nav-item">
+            <a class="nav-link"  data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" href="#modalSearch">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </li>
+          <li class="nav-item ms-lg-n3">
+            <a class="nav-link" data-bs-toggle="modal"  data-bs-target="#exampleModal" href="#">
+              <i class="fa-regular fa-user"></i>
+            </a>
+          </li>
+          <li class="nav-item ms-lg-n3">
+            <a class="nav-link" href="#">
+              <i class="fa-regular fa-heart"></i>
+            </a>
+          </li>
+          <li class="nav-item ms-lg-n3">
+            <a class="nav-link" data-bs-toggle="offcanvas" href="#modalShoppingCart">
+              <span data-cart-items="2">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+  
+      </div>
+  
+    </div>
+  </nav>
+  </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+   
+    <section>
+      <div class="container-fluid">
+
+        <div id="carouselExampleSlidesOnly  " class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+        
+              
+              <div class="carousel-item active">
+                <img src="/Images/banners-1 (1).webp " class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <button>
+                    <button type="button" class="btn btn-outline-dark">Shop Now</button>
+                  </button>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+                
+              </div>
+              
+             
+       
+              
+            </div>
+          </div>
+        </div>
+    </section>
+ 
+    
+          
+          
+          </div>
+            <div class="container-fluid">
+            <section class="my-lg-14 my-8">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12 mb-6">
+        
+                    <h3 class="mb-4 mt-4 text-center" >Popular Products</h3>
+        
+                  </div>
+                </div>
+        
+                <div class="row g-4 row-cols-lg-5 row-cols-2 row-cols-md-3">
+                  <div class="col">
+                    <div class="card card-product">
+                      <div class="card-body">
+        
+                        <div class="text-center position-relative ">
+                          <div class=" position-absolute top-0 start-0">
+                            <span class="badge bg-danger">Sale</span>
+                          </div>
+                          <a href="#!"> <img src="/Images/card1.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
+        
+                          <div class="card-product-action">
+                            <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View" data-bs-original-title="Quick View"></i></a>
+                            <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>
+                            <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                          </div>
+        
+                        </div>
+                        <div class="text-small mb-1"><a href="#!" class="text-decoration-none text-muted"><small>Snack &amp;
+                              Munchies</small></a></div>
+                        <h2 class="fs-6"><a href="./pages/shop-single.html" class="text-inherit text-decoration-none">nnnnnn nnnnnn</a></h2>
+                        <div>
+        
+                          <small class="text-warning"> <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i></small> <span class="text-muted small">4.5(149)</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                          <div><span class="text-dark">$18</span> <span class="text-decoration-line-through text-muted">$24</span>
+                          </div>
+                          <div><a href="#!" class="btn btn-primary btn-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                              </svg> Add</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-product">
+                      <div class="card-body">
+                        <div class="text-center position-relative">
+                          <div class=" position-absolute top-0 start-0">
+                            <span class="badge bg-success">14%</span>
+                          </div>
+                          <a href="./pages/shop-single.html"><img src="/Images/card2.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
+                          <div class="card-product-action">
+                            <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View" data-bs-original-title="Quick View"></i></a>
+                            <a href="../pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>
+                            <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                          </div>
+        
+                        </div>
+                        <div class="text-small mb-1"><a href="#!" class="text-decoration-none text-muted"><small>Bakery &amp;
+                              Biscuits</small></a></div>
+                        <h2 class="fs-6"><a href="./pages/shop-single.html" class="text-inherit text-decoration-none">Multi Gym Excise </a></h2>
+                        <div class="text-warning">
+        
+                          <small> 
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </small> <span class="text-muted small">4.5 (25)</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                          <div><span class="text-dark">$24</span>
+                          </div>
+                          <div><a href="#!" class="btn btn-primary btn-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                              </svg> Add</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-product">
+                      <div class="card-body">
+                        <div class="text-center position-relative"> <a href="./pages/shop-single.html"><img src="/Images/card3.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
+                          <div class="card-product-action">
+                            <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View" data-bs-original-title="Quick View"></i></a>
+                            <a href="../pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>
+                            <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                          </div>
+                        </div>
+                        <div class="text-small mb-1"><a href="#!" class="text-decoration-none text-muted"><small>Beauty &amp;
+                              Healthy</small></a></div>
+                        <h2 class="fs-6"><a href="./pages/shop-single.html" class="text-inherit text-decoration-none">
+                      Cosmetics Brush</a></h2>
+                        <div class="text-warning">
+        
+                          <small>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i></small> <span class="text-muted small">4.5 (469)</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                          <div><span class="text-dark">$32</span> <span class="text-decoration-line-through text-muted">$35</span>
+                          </div>
+                          <div><a href="#!" class="btn btn-primary btn-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                              </svg> Add</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-product">
+                      <div class="card-body">
+                        <div class="text-center position-relative"> <a href="./pages/shop-single.html"><img src="/Images/card4.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" ></a>
+                          <div class="card-product-action">
+                            <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View" data-bs-original-title="Quick View"></i></a>
+                            <a href="../pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>
+                            <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                          </div>
+                          <div class=" position-absolute top-0 start-0">
+                            <span class="badge bg-danger">Hot</span>
+                          </div>
+                        </div>
+                        <div class="text-small mb-1"><a href="#!" class="text-decoration-none text-muted"><small>Snack &amp;
+                              Munchies</small></a></div>
+                        <h2 class="fs-6"><a href="./pages/shop-single.html" class="text-inherit text-decoration-none">Onion
+                            Flavour Potato</a></h2>
+                        <div class="text-warning">
+        
+                          <small>                             
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i></small> <span class="text-muted small">3.5 (456)</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                          <div><span class="text-dark">$3</span> <span class="text-decoration-line-through text-muted">$5</span>
+                          </div>
+                          <div><a href="#!" class="btn btn-primary btn-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                              </svg> Add</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-product">
+                      <div class="card-body">
+                        <div class="text-center position-relative"> <a href="./pages/shop-single.html"><img src="/Images/card5.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
+                          <div class="card-product-action">
+                            <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View" data-bs-original-title="Quick View"></i></a>
+                            <a href="../pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>
+                            <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                          </div>
+                        </div>
+                        <div class="text-small mb-1"><a href="#!" class="text-decoration-none text-muted"><small>Instant
+                              Food</small></a></div>
+                        <h2 class="fs-6"><a href="./pages/shop-single.html" class="text-inherit text-decoration-none">Salted
+                            Instant Popcorn </a></h2>
+                        <div class="text-warning">
+        
+                          <small>                            
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i></i></small> <span class="text-muted small">4.5 (39)</span>
+                        </div>
+                        <div class="d-flex justify-content-between mt-4">
+                          <div><span class="text-dark">$13</span> <span class="text-decoration-line-through text-muted">$18</span>
+                          </div>
+                          <div><a href="#!" class="btn btn-primary btn-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                              </svg> Add</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-product">
+                      <div class="card-body">
+        
+                        <div class="text-center position-relative ">
+                          <div class=" position-absolute top-0 start-0">
+                            <span class="badge bg-danger">Sale</span>
+                          </div>
+                          <a href="#!"> <img src="/Images/card6.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
+                          <div class="card-product-action">
+                            <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View" data-bs-original-title="Quick View"></i></a>
+                            <a href="../pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>
+                            <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                          </div>
+                        </div>
+                        <div class="text-small mb-1"><a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread &amp;
+                              Eggs</small></a></div>
+                        <h2 class="fs-6"><a href="./pages/shop-single.html" class="text-inherit text-decoration-none">Blueberry
+                            Greek Yogurt</a></h2>
+                        <div>
+        
+                          <small class="text-warning">                             
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i></small> <span class="text-muted small">4.5 (189)</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                          <div><span class="text-dark">$18</span> <span class="text-decoration-line-through text-muted">$24</span>
+                          </div>
+                          <div><a href="#!" class="btn btn-primary btn-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                              </svg> Add</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-product">
+                      <div class="card-body">
+                        <div class="text-center position-relative"> <a href="./pages/shop-single.html"><img src="/Images/card11.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
+                          <div class="card-product-action">
+                            <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View" data-bs-original-title="Quick View"></i></a>
+                            <a href="../pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>
+                            <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                          </div>
+                        </div>
+                        <div class="text-small mb-1"><a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread &amp;
+                              Eggs</small></a></div>
+                        <h2 class="fs-6"><a href="./pages/shop-single.html" class="text-inherit text-decoration-none">Britannia
+                            Cheese Slices</a></h2>
+                        <div class="text-warning">
+        
+                          <small>                            
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i></small> <span class="text-muted small">5 (345)</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                          <div><span class="text-dark">$24</span>
+                          </div>
+                          <div><a href="#!" class="btn btn-primary btn-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                              </svg> Add</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-product">
+                      <div class="card-body">
+                        <div class="text-center position-relative"> <a href="./pages/shop-single.html"><img src="/Images/card8.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
+                          <div class="card-product-action">
+                            <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View" data-bs-original-title="Quick View"></i></a>
+                            <a href="../pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>
+                            <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                          </div>
+                        </div>
+                        <div class="text-small mb-1"><a href="#!" class="text-decoration-none text-muted"><small>Instant
+                              Food</small></a></div>
+                        <h2 class="fs-6"><a href="./pages/shop-single.html" class="text-inherit text-decoration-none">Kellogg's 
+                        </a>
+                        </h2>
+                        <div class="text-warning">
+        
+                          <small>                             
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i></small> <span class="text-muted small">4 (90)</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                          <div><span class="text-dark">$32</span> <span class="text-decoration-line-through text-muted">$35</span>
+                          </div>
+                          <div><a href="#!" class="btn btn-primary btn-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                              </svg> Add</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-product">
+                      <div class="card-body">
+                        <div class="text-center position-relative"> <a href="./pages/shop-single.html"><img src="/Images/card9.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
+                          <div class="card-product-action">
+                            <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View" data-bs-original-title="Quick View"></i></a>
+                            <a href="../pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>
+                            <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                          </div>
+                        </div>
+                        <div class="text-small mb-1"><a href="#!" class="text-decoration-none text-muted"><small>Snack &amp;
+                              Munchies</small></a></div>
+                        <h2 class="fs-6"><a href="./pages/shop-single.html" class="text-inherit text-decoration-none">Slurr Millet Chocolate </a></h2>
+                        <div class="text-warning">
+        
+                          <small>                             
+                            
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i></small> <span class="text-muted small">4.5 (67)</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                          <div><span class="text-dark">$3</span> <span class="text-decoration-line-through text-muted">$5</span>
+                          </div>
+                          <div><a href="#!" class="btn btn-primary btn-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                              </svg> Add</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-product">
+                      <div class="card-body">
+                        <div class="text-center position-relative"> <a href="./pages/shop-single.html"><img src="/Images/card10.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
+                          <div class="card-product-action">
+                            <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View" data-bs-original-title="Quick View"></i></a>
+                            <a href="../pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>
+                            <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                          </div>
+                        </div>
+                        <div class="text-small mb-1"><a href="#!" class="text-decoration-none text-muted"><small>Instant
+                              Food</small></a></div>
+                        <h2 class="fs-6"><a href="./pages/shop-single.html" class="text-inherit text-decoration-none">Kellogg's 
+                        </a>
+                        </h2>
+                        <div class="text-warning">
+        
+                          <small>                             
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i></small> <span class="text-muted small">4 (90)</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                          <div><span class="text-dark">$32</span> <span class="text-decoration-line-through text-muted">$35</span>
+                          </div>
+                          <div><a href="#!" class="btn btn-primary btn-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                              </svg> Add</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            </div>
+    
+
+
+
+          <!-- offcansive in search  -->
+
+
+          <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <form>
+                  <div class="form-group">
+                    <label class="visually-hidden" for="modalSearchCategories">Categories:</label>
+                    <select class="form-select" id="modalSearchCategories">
+                      <option selected="">All Categories</option>
+                      <option>Women</option>
+                      <option>Men</option>
+                      <option>Kids</option>
+                    </select>
+                  </div>
+                  <div class="input-group input-group-merge mt-4">
+                    <input class="form-control" type="search" placeholder="Search">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-border" type="submit">
+                        <i class="fa-solid fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      <!-- modal in user  -->
+      
+        
+      
+      <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal  modal-sm fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content bg-dark " style="color: aliceblue;">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">User Account</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-12">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Country</label>
+            <select id="inputState" class="form-select">
+              <option selected>France</option>
+              <option selected>India</option>
+              <option selected>America</option>
+              <option selected>Turkey</option>
+              <option selected>England</option>
+              <option selected>Pakistan</option>
+              
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="my-5">
+    <div class="p-5 text-center bg-body-tertiary img-fluid " style="background-image: url(/Images/Capture.PNG); height: 39vh;">
+      <div class="container py-5">
+        
+        
+      <div class="container text-center text-light">
+         
+        <h4>Sneakers For You</h4>
+        
+         
+        <h3>Minimum 20% Off</h3>
+        
+         
+        <p>Latest products with innovate designs</p>
+        
+         
+        <button type="button" class="btn btn-outline-dark " style="border-radius: 13px;border: 1px solid black;">Secondary</button>
+        
+         
+       
+        
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      
+   <div class="container-fluid">
+        <footer class="py-4 text-light bg-dark">
+          <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column text-light">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2023 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+          </div>
+
+        </footer>
+      </div>
+    
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+
+    </script>
+<script src="/index.js"></script>
+</body>
+
+</html>

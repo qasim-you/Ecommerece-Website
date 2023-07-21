@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header .navbar-toggler{
+    width: unset;
+   
+    height: unset;
+}
+#header .navbar-toggler:focus{
+box-shadow: none;
+}
+.heroSection{
+    margin-top: 20px;
+}
+.image{
+    background-color:transparent;
+}
+.fa-regular ,.fa-solid{
+    font-size: 1.4rem;
+    margin: 10px;
+}
+.fa-star{
+    font-size: 1rem ;
+}
+.card img {
+    transition: transform .7s ease-in-out; 
+  }
+  .card img:hover {
+     transform: rotate(180deg); 
+     animation: left-to-right 1s ease-in forwards;
+  }
+  @keyframes left-to-right{
+    0%{
+        transform: rotate3d(45deg);
+      }
+      33%{
+        transform: rotate3d(90deg);
+      }
+      66%{
+        transform: rotate3d(45deg) rotate3d(90deg) ;
+      }
+      100%{
+        transform: rotate(1360deg);
+      }
+  }
+
+
+  /* Navbar styles */
+.navbar-menu {
+    display: none; /* Hide the menu by default */
+  }
+  
+  /* Styles for mobile devices */
+  @media only screen and (max-width: 768px) {
+    .navbar-menu {
+      display: block; /* Show the menu when in mobile view */
+    }
+    
+    .navbar-close {
+      display: none; /* Hide the close button in mobile view */
+    }
+  }
+  
